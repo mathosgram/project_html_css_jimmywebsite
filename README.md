@@ -1,21 +1,11 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/QRrPE9aj3wI?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_html_css_website/assets/151519281/562e0f27-4b93-41cb-a63d-7c50940fc0ad" alt="Project Banner">
-    </a>
-  <br />
-
-  <div>
+<div>
     <img src="https://img.shields.io/badge/-HTML_5-black?style=for-the-badge&logoColor=white&logo=html5&color=E34F26" alt="html5" />
     <img src="https://img.shields.io/badge/-css3-black?style=for-the-badge&logoColor=white&logo=css3&color=1572B6" alt="css3" />
   </div>
 
-  <h3 align="center">Sushi Website</h3>
+  <h3 align="center">JimShusi Website</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+
 
 ## 📋 <a name="table">Table of Contents</a>
 
@@ -29,19 +19,8 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/QRrPE9aj3wI?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
 ## <a name="introduction">🤖 Introduction</a>
-
-Develop a sushi website showcasing popular food, trending sushi, and drinks using HTML and CSS with smooth subtle animations. 
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+Developed this sushi website showcasing popular food, trending sushi, and drinks using HTML and CSS with smooth subtle animations. This site was created for my LIS403 Project at the University of Ilorin.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -90,8 +69,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/project_html_css_website.git
-cd project_html_css_website
+git clone https://github.com/mathosgram/project_html_css_jimmywebsite/
+cd project_html_css_jimmywebsite
 ```
 
 **Installation**
@@ -116,6 +95,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 <summary><code>index.html</code></summary>
 
 ```html
+<!-- Code By Jimmy-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -124,7 +104,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
   <link rel="icon" type="image/svg+xml" href="/sushi.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <title>Sushiman</title>
+  <title>Jimshusi</title>
 </head>
 
 <body>
@@ -133,7 +113,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
     <nav class="header__nav">
       <div class="header__logo">
         <!-- This how we use aos. Simply specify the type of animation using data attribute -->
-        <h4 data-aos="fade-down">Sushiman</h4>
+        <h4 data-aos="fade-down">Jimshusi</h4>
 
         <div class="header__logo-overlay"></div>
       </div>
